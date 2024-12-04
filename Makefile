@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: parissachatagny <parissachatagny@studen    +#+  +:+       +#+         #
+#    By: pchatagn <pchatagn@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/12/02 13:52:16 by parissachat       #+#    #+#              #
-#    Updated: 2024/12/03 15:44:14 by parissachat      ###   ########.fr        #
+#    Updated: 2024/12/04 15:44:53 by pchatagn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,8 +33,8 @@ OBJ_CLIENT_BONUS = $(addprefix $(OBJDIR)/, $(FILES_CLIENT_BONUS:.c=.o))
 
 SERVER_NAME = server
 CLIENT_NAME = client
-SERVER_BONUS_NAME = server_bonus
-CLIENT_BONUS_NAME = client_bonus
+SERVER_NAME_BONUS = server_bonus
+CLIENT_NAME_BONUS = client_bonus
 	
 all: $(SERVER_NAME) $(CLIENT_NAME)
 
